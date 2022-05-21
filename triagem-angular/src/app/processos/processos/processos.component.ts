@@ -29,11 +29,10 @@ export class CoursesComponent implements OnInit {
     this.processos$ = this.processosService.list()
     .pipe(
       catchError(error => {
-        this.onError('Erro ao carregar processos.');
+        this.onError('Erro ao carregar cursos.');
         return of([])
       })
     );
-
   }
 
   onError(errorMsg: string) {

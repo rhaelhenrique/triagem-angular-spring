@@ -1,13 +1,12 @@
 export interface Processo {
 
   _id: string;
-  numero: string;
   autor: string;
-  //*valor: number;
+  gratuita: string;
+  valor: string;
   //classe: string;
   //asunto: string;
   //prioridade: boolean;
-  //gratuidade: boolean;
   //segredo: boolean;
   //liminar: boolean;
 
